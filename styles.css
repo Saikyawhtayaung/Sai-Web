@@ -719,27 +719,27 @@ img {
   }
 
 /* ===== Services Section ===== */
-#services .section-title {
+#works .section-title {
     font-size: 2.5rem;
     margin-bottom: 15px;
 }
 
-.service-card p {
+.work-card p {
     font-size: 0.9rem;
     margin-bottom: 15px;
 }
 
-.services {
+.works {
     background-color: white;
 }
 
-.services-grid {
+.works-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 
-.service-card {
+.work-card {
     background-color: white;
     border-radius: var(--border-radius);
     padding: 30px;
@@ -748,13 +748,13 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.service-card:hover {
+.work-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     border-color: var(--primary-color);
 }
 
-.service-icon {
+.work-icon {
     width: 60px;
     height: 60px;
     background-color: rgba(37, 99, 235, 0.1);
@@ -767,12 +767,12 @@ img {
     font-size: 1.5rem;
 }
 
-.service-card h3 {
+.work-card h3 {
     font-size: 1rem;
     margin-bottom: 15px;
 }
 
-.service-card p {
+.work-card p {
     font-size: 0.9rem;
     margin-bottom: 15px;
 }
